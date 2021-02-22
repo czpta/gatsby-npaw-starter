@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, See full project on
+          © {new Date().getFullYear()}, See source code on
           {` `}
           <a href="https://github.com/czpta/npaw-gatsby-starter">Github</a>
         </footer>
