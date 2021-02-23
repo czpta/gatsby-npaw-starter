@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `youboralib`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

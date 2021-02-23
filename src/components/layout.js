@@ -13,6 +13,20 @@ import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
+
+  React.useEffect(() => {
+    var youbora = require('youboralib')
+    require('youbora-adapter-html5')
+    var plugin = new youbora.Plugin({ accountCode: 'powerce', 'username': 'czpta' })
+    plugin.setOptions({
+        'content.isLive': false,
+        'content.title': 'trailer.mp4'
+    }) // Set metadata options, see below.
+    plugin.setAdapter(new youbora.adapters.Html5('player')) // Attach adapter
+  }, []);
+
+  
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
