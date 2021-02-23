@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   React.useEffect(() => {
     var youbora = require('youboralib')
     require('youbora-adapter-html5')
-    var plugin = new youbora.Plugin({ accountCode: 'powerce', 'username': 'czpta' })
+    var plugin = new youbora.Plugin({ accountCode: 'enter-password-here', 'username': 'enter-username-here' })
     plugin.setOptions({
         'content.isLive': false,
         'content.title': 'trailer.mp4'
