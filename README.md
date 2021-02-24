@@ -34,6 +34,10 @@ _Have another more specific idea? You may want to check out the collection of [o
 
     Open the path `src/components/layout.js` to enter your NPAW accountCode and username.
 
+## ▶️ NPAW Integration
+
+In order to kick off the integration, enter your `accountCode` and `userName` on line 20 of [layout.js](https://github.com/czpta/gatsby-npaw-starter/blob/master/src/components/layout.js). A friendlier environment can be developed in the future, but this was a quick solution which did not beg for more invested time.
+
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
